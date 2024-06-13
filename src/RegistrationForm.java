@@ -37,13 +37,9 @@ public class RegistrationForm extends JDialog{
             return;
         }
 
-        addUser(name, email, password);
+
     }
 
-    private User addUser(String name, String email, String password){
-        User user = null;
-        return user;
-    }
     public static void main(String[] args){
         RegistrationForm regForm = new RegistrationForm(null);
     }
